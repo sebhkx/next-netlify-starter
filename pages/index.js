@@ -12,8 +12,9 @@ export default function Home() {
 
       <main>
         <Header title="Welcome to my site!" />
-        <p className="description">
-          Project name: next-netlify-starter <code>pages/index.js</code>
+        <p className="calendar">
+          <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=2&bgcolor=%23ffffff&ctz=Asia%2FSingapore&showPrint=0&title=Seb's%20Calendar&src=c2ViaC5reEBnbWFpbC5jb20&src=cDVncGRzc2F1ZnVyNmhxYzBwMmpjajFpb2tAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&color=%230e61b9&color=%23a6000b" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+
         </p>
       </main>
 
